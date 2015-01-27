@@ -50,25 +50,25 @@ $desktop-width: 75em;
 }
 
 @mixin pix150 {
-	@media (min-resolution: 150dpi) and (orientation : portrait) { 
+	@media (min-resolution: 150dppx) and (orientation : portrait) { 
 		@content
 	}
 }
 
 @mixin pix200 {
-	@media (min-resolution: 200dpi) and (orientation : portrait) { 
+	@media (min-resolution: 200dppx) and (orientation : portrait) { 
 		@content
 	}
 }
 
 @mixin pix250 {
-	@media (min-resolution: 250dpi) and (orientation : portrait) {
+	@media (min-resolution: 250dppx) and (orientation : portrait) {
 		@content
 	}
 }
 
 @mixin pix300 {
-	@media (min-resolution: 300dpi) and (orientation : portrait) {
+	@media (min-resolution: 300dppx) and (orientation : portrait) {
 		@content
 	}
 }
